@@ -143,6 +143,7 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
+    padding: 0 3%;
     background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     flex-direction: column;
@@ -179,7 +180,7 @@ h1 {
 .shop-info {
     position: relative;
     width: 100%;
-    background: #282E34;
+    background: rgb(40, 46, 52);
     color: white;
 }
 
@@ -187,7 +188,7 @@ h1 {
     width: 100%;
     padding: 2.5% 10%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -197,7 +198,7 @@ h1 {
 }
 
 .img-container {
-    width: 25%;
+    width: 17%;
     height: 60%;
     background: white;
     overflow: hidden;
@@ -205,6 +206,7 @@ h1 {
 
 .content {
     width: 70%;
+    padding-left: 6%;
 }
 
 .content p {
@@ -236,5 +238,25 @@ h1 {
 
     nav ul a {
         font-size: 1.5em;
+    }
+
+    .personal {
+        width: 100%;
+        padding: 10% 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-container {
+        width: 50%;
+        height: 60%;
+        background: white;
+        overflow: hidden;
+    }
+
+    .content {
+        width: 100%;
     }
 }
