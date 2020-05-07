@@ -36,6 +36,15 @@ main {
     z-index: 10000;
 }
 
+.logo {
+    height: 5em;
+    width: auto;
+  }
+  
+  .logo img {
+    width: 100%;
+  }
+
 nav {
     z-index: 50;
     box-sizing: border-box;
