@@ -10,6 +10,12 @@ html {
     font-size: 0.8em;
 }
 
+@media (max-width:1300px) {
+    html {
+        font-size: 0.6em;
+    }
+}
+
 img {
     display: block;
 }
