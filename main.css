@@ -236,6 +236,10 @@ h1 {
       font-size: .5em;
     }
 
+    h1 {
+        font-size: 5em;
+    }
+
     .overlay p {
         width: 70%;
     }
