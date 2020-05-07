@@ -160,22 +160,26 @@ h1 {
     align-items: center;
 }
 
-.parallax {
-    background-image: url("imgs/main.jpg");
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.parallax-build {
-    background-image: url("imgs/drift.jpg");
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+@media (min-width: 801px) {
+    .parallax-build {
+        background-image: url("imgs/drift.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .parallax {
+        background-image: url("imgs/main.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 .overlay p {
@@ -226,7 +230,7 @@ h1 {
     width: 100%;
 }
 
-@media (max-width: 801px) {
+@media (max-width: 800px) {
     html {
       font-size: .5em;
     }
@@ -273,11 +277,13 @@ h1 {
         background-image: url("imgs/main.jpg");
         height: 100%;
         background-size: cover;
+        background-position: center;
     }
     
     .parallax-build {
         background-image: url("imgs/drift.jpg");
         height: 100%;
         background-size: cover;
+        background-position: center;
     }
 }
