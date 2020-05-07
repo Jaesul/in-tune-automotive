@@ -259,4 +259,16 @@ h1 {
     .content {
         width: 100%;
     }
+
+    .parallax {
+        background-image: url("imgs/main.jpg");
+        height: 100%;
+        background-size: cover;
+    }
+    
+    .parallax-build {
+        background-image: url("imgs/drift.jpg");
+        height: 100%;
+        background-size: cover;
+    }
 }
