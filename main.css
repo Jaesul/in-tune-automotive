@@ -50,6 +50,7 @@ nav {
     box-sizing: border-box;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     padding: 4em 10em;
     position: fixed;
     justify-content: space-between;
@@ -285,5 +286,9 @@ h1 {
         height: 100%;
         background-size: cover;
         background-position: center;
+    }
+
+    .logo {
+        margin-bottom: 1.5em;
     }
 }
