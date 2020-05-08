@@ -177,7 +177,7 @@ h1 {
 
 @media (min-width: 801px) {
     .parallax-contact {
-        background-image: url("imgs/contact.jpg");
+        background-image: url("imgs/contact.png");
         height: 100%;
         background-attachment: fixed;
         background-position: center;
@@ -195,8 +195,7 @@ h1 {
     }
     
     .parallax {
-        background-image: url("imgs/main.jpg");
-        height: 100%;
+        background-image: url("imgs/main.png");
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
