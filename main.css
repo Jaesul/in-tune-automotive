@@ -415,7 +415,7 @@ footer .section-15 {
     }
 
     .parallax {
-        background-image: url("imgs/main.jpg");
+        background-image: url("imgs/main.png");
         height: 100%;
         background-size: cover;
         background-position: center;
@@ -429,7 +429,7 @@ footer .section-15 {
     }
 
     .parallax-contact {
-        background-image: url("imgs/contact.jpg");
+        background-image: url("imgs/contact.png");
         height: 100%;
         background-size: cover;
         background-position: center;
