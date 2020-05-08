@@ -381,6 +381,7 @@ footer .section-15 {
 
     nav {
         justify-content: center;
+        padding-top: 2.5em;
     }
 
     nav ul {
@@ -402,7 +403,7 @@ footer .section-15 {
         align-items: center;
     }
 
-    .img-container {
+    .personal .img-container {
         width: 50%;
         height: 60%;
         background: white;
@@ -449,5 +450,27 @@ footer .section-15 {
     
     .certifications .hybrid {
         width: 35%;
+    }
+
+    .display {
+        display: block;
+    }
+
+    .display .content {
+        width: 100%;
+    }
+
+    .display .img-container {
+        width: 70vw;
+        height: 70vw;
+        margin: 2em auto;
+    }
+
+    .platforms .img-container {
+        width: 30%;
+    }
+
+    .platforms {
+        padding-bottom: 3em;
     }
 }
