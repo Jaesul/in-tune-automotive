@@ -10,6 +10,10 @@ html {
     font-size: 0.8em;
 }
 
+html, main {
+    scroll-behavior: smooth; 
+}
+
 @media (max-width:1300px) {
     html {
         font-size: 0.6em;
@@ -56,13 +60,16 @@ nav {
     z-index: 50;
     box-sizing: border-box;
     width: 100%;
-    display: flex;
     flex-wrap: wrap;
     padding: 4em 10em;
     position: fixed;
     justify-content: space-between;
     color: white;
     transition: all 0.3s ease-in-out;
+}
+
+nav, nav ul, .overlay {
+    display: flex;
 }
   
 nav a {
@@ -112,7 +119,6 @@ nav a:hover::after {
 }
 
 nav ul {
-    display: flex;
     justify-content: flex-end;
     align-items: center;
     margin: 0 0 0 auto;
@@ -155,6 +161,9 @@ h1 {
 .splash-img {
     width: 100%;
     height: 100%;
+}
+
+.splash-img, .platforms .img-container .content img {
     object-fit: cover;
 }
 
@@ -167,7 +176,6 @@ h1 {
     height: 100%;
     padding: 0 3%;
     background-color: rgba(0, 0, 0, 0.7);
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -214,8 +222,11 @@ h1 {
 .shop-info {
     position: relative;
     width: 100%;
-    background: rgb(12, 12, 12);
     color: white;
+}
+
+.shop-info {
+    background: rgb(8, 8, 8);
 }
 
 .personal, .display {
@@ -340,7 +351,29 @@ h1 {
 .platforms .img-container .content img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+}
+
+.contact {
+    width: 100%;
+    height: 50%;
+    padding-top: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-card {
+    border-radius: 5px;
+    width: 28%;
+    margin: 0 4%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    background: white;
+}
+
+.top-color {
+    width: 100%;
+    height: 15%;
+    background: black;
 }
 
 footer {
