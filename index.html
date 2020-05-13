@@ -10,16 +10,16 @@
     <title>In-Tune</title>
 </head>
 <body>
+    <nav>
+        <img src="imgs/logo.png" alt="" class='logo'>
+        <ul>
+          <li><a href="#about-us">about us</a></li>
+          <li><a href="#builds">custom builds</a></li>
+          <li><a href="#tuning">tuning</a></li>
+          <li><a href="#contact">contact / quotes</a></li>
+        </ul>
+    </nav>
     <main>
-        <nav>
-            <img src="imgs/logo.png" alt="" class='logo'>
-            <ul>
-              <li><a href="#about-us">about us</a></li>
-              <li><a href="#builds">custom builds</a></li>
-              <li><a href="#tuning">tuning</a></li>
-              <li><a href="#contact">contact / quotes</a></li>
-            </ul>
-        </nav>
         <section class="splash-info parallax main-splash">
             <div class="overlay">
                 <h1>You dream it, we build it</h1>
@@ -150,14 +150,15 @@
                 </ul>
             </div>
         </footer>
-        <div class="contact-modal-bg" id="contact-form">
+        <div class="contact-modal-bg no-opacity hidden" id="contact-form">
             <div class="modal">
                 <h3>In-Tune Contact Form</h3>
                 <h4>Contact us for a custom quote on your build</h4>
                 <button class="modal-close" data-target="contact-form">X</button>
                 <form action="https://formspree.io/moqkvyqb" method="POST">
                     <input type="text" name="_replyto" placeholder="Email (Required)">
-                    <textarea name="message"></textarea>
+                    <input type="text" name="_replyto" placeholder="Phone Number (Optional)">
+                    <textarea name="build-details" placeholder="Tell us about your build! "></textarea>
                     <button type="submit">Send</button>
                 </form>
             </div>

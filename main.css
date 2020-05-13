@@ -61,7 +61,7 @@ main {
 }
 
 nav {
-    z-index: 50;
+    z-index: 10;
     box-sizing: border-box;
     width: 100%;
     flex-wrap: wrap;
@@ -198,7 +198,7 @@ h1 {
     }
 
     .parallax-build {
-        background-image: url("imgs/drift.jpg");
+        background-image: url("imgs/drift.png");
         height: 100%;
         background-attachment: fixed;
         background-position: center;
@@ -285,14 +285,14 @@ h1 {
 }
 
 .certifications .img-container {
-    width: 15%;
-    margin: 0 10% 0 10%;
+    width: 25%;
+    margin: 0 8% 0 8%;
     overflow: hidden;
     background: transparent;
 }
 
 .certifications .hybrid {
-    width: 27%;
+    width:40%;
 }
 
 .certifications .img-container img {
@@ -431,6 +431,7 @@ h1 {
     background: white;
     padding: 4em 4em;
     color: rgb(60, 60, 60);
+    width: 30%;
 }
 
 .modal-close {
@@ -455,37 +456,54 @@ h1 {
     flex-wrap: wrap;
 }
 
+form button {
+    padding: .4em .7em;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+    background: rgb(60, 60, 60);
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-top: 6px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+form button:hover {
+    opacity: 0.6;
+}
+
 .modal h3 {
     font-size: 2.5em;
+    letter-spacing: 1px;
     margin: 0 0 0 0;
+}
+
+.modal h4 {
+    font-size: 1.3em;
 }
 
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(177, 177, 177);
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
   }
-  
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+
+  textarea::placeholder, input[type=text]::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: rgba(80, 80, 80, 0.8);
   }
   
   textarea { 
       height: 10em;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
   }
 
 footer {
@@ -662,6 +680,11 @@ footer .section-10 {
     .platforms {
         padding-bottom: 3em;
     }
+
+    .modal {
+        width: 80%;
+    }
+    
 }
 
 .hidden {
