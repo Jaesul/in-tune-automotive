@@ -11,7 +11,7 @@
 </head>
 <body>
     <main>
-        <nav class='no-opacity'>
+        <nav>
             <img src="imgs/logo.png" alt="" class='logo'>
             <ul>
               <li><a href="#about-us">about us</a></li>
@@ -115,7 +115,7 @@
                 <p>Fill out the form below or give us a call to talk about your next build</p>
                 <div class="button-container">
                     <a href="tel:1-253-292-1013">(253)-292-1013</a>
-                    <button>Contact Form</button>
+                    <button data-target="contact-form" class="modal-open">Contact Form</button>
                 </div>
             </div>
         </section>
@@ -150,6 +150,18 @@
                 </ul>
             </div>
         </footer>
+        <div class="contact-modal-bg" id="contact-form">
+            <div class="modal">
+                <h3>In-Tune Contact Form</h3>
+                <h4>Contact us for a custom quote on your build</h4>
+                <button class="modal-close" data-target="contact-form">X</button>
+                <form action="https://formspree.io/moqkvyqb" method="POST">
+                    <input type="text" name="_replyto" placeholder="Email (Required)">
+                    <textarea name="message"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
     </main>
 </body>
 </html>

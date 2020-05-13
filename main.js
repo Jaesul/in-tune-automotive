@@ -7,6 +7,8 @@
     let observer = navObs();
     let navSection = qs('.main-splash');
     observer.observe(navSection);
+    setupOpenButtons();
+    setupCloseButtons();
   }
 
   function navObs() {
@@ -30,6 +32,32 @@
     );
 
     return observer;
+  }
+
+  function setupOpenButtons() {
+    let buttons = qsa('.modal-open');
+    buttons.forEach(element => {
+      element.addEventListener('click', function() {
+        let modal = id(element.dataset.target);
+        modal.classList.remove('hidden');
+        setTimeout(function () {
+          modal.classList.remove('no-opacity');
+        }, 10);
+      });
+    });
+  }
+
+  function setupCloseButtons() {
+    let buttons = qsa('.modal-close');
+    buttons.forEach(element => {
+      element.addEventListener('click', function() {
+        let modal = id(element.dataset.target);
+        modal.classList.add('no-opacity');
+        setTimeout(function () {
+          modal.classList.add('hidden');
+        }, 300);
+      });
+    });
   }
 
   function qsa(elementName) {
