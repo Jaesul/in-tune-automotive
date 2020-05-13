@@ -213,6 +213,10 @@ h1 {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    .mobile {
+        display: none;
+    }
 }
 
 .overlay p {
@@ -685,6 +689,14 @@ footer .section-10 {
         width: 80%;
     }
     
+
+    .desktop {
+        display: none;
+    }
+
+    footer ul { 
+        text-align: left;
+    }
 }
 
 .hidden {
