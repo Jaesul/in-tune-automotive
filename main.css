@@ -272,8 +272,8 @@ h1 {
 }
 
 .content p {
-    font-size: 1.3em;
-    line-height: 1.4em;
+    font-size: 1.4em;
+    line-height: 1.5em;
 }
 
 .img-container img {
@@ -331,6 +331,10 @@ h1 {
     align-items: stretch;
 }
 
+.shop-info .display .picture-right {
+    padding-left: 0;
+}
+
 .platforms .img-container {
     position: relative;
     width: 17%;
@@ -362,10 +366,6 @@ h1 {
 
 .platforms .lg {
     width: 27%;
-}
-
-.platforms .expand:hover {
-    transform: scale(1.02);
 }
 
 .platforms .img-container:after {
