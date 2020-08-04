@@ -705,8 +705,14 @@ footer .section-10 {
     }
 
     .content {
+        padding-top: 8%;
         width: 100%;
         font-size: 1.4em;
+    }
+
+    .service-card { 
+        width: 50%;
+        padding: 4% 3%
     }
 
     .parallax {
