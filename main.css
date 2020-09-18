@@ -240,13 +240,19 @@ h1 {
     background: rgb(8, 8, 8);
 }
 
+.shop-info .content {
+    text-align: center;
+    padding: 0;
+    width: 60%;
+}
+
 .personal {
-    background-color: rgb(20, 20, 30);
+    background-color: rgb(20, 20, 20);
 }
 
 .personal, .display {
     width: 100%;
-    padding: 4.5% 10%;
+    padding: 6% 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -257,7 +263,7 @@ h1 {
 }
 
 .personal h2 {
-    font-size: 2.5em;
+    font-size: 3.5em;
     letter-spacing: 2px;
 }
 
@@ -328,7 +334,8 @@ h1 {
 
 .display .content {
     width: 60%;
-    padding-right: 8%;
+    padding: 8%;
+    text-align: left;
 }
 
 .platforms {
@@ -341,7 +348,7 @@ h1 {
 
 #services {
     align-items: stretch;
-    background-color: rgb(20, 20, 30);
+    background-color: rgb(30, 30, 30);
     padding: 4.5% 18%;
 }
 
@@ -365,12 +372,17 @@ h1 {
 }
 
 .service-card { 
-    width: 32%;
+    width: 33%;
     padding: 4% 3%
 }
 
 .service-card p {
     font-size: 1.2em;
+}
+
+.service-card h2 {
+    letter-spacing: 1px;
+    font-size: 1.5em;
 }
 
 .shop-info .display .picture-right {
@@ -382,6 +394,10 @@ h1 {
     width: 17%;
     margin: 1.5%;
     transition: all 0.5s ease-in-out;
+}
+
+.platforms .img-container img {
+    object-fit: cover;
 }
 
 .img-container .overlay {
@@ -694,7 +710,7 @@ footer .section-10 {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        background-color: rgb(20, 20, 30);
+        background-color: rgb(20, 20, 20);
     }
 
     .personal .img-container {
