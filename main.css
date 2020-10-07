@@ -832,6 +832,10 @@ footer .section-10 {
     footer ul { 
         text-align: left;
     }
+
+    h1, h2, h3 {
+        letter-spacing: normal;
+    }
 }
 
 .hidden {
