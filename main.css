@@ -37,6 +37,11 @@ body {
     color: rgb(40, 40, 40);
 }
 
+body * { 
+    -webkit-font-smoothing: subpixel-antialiased !important; 
+    text-rendering:optimizeLegibility !important;
+}
+
 main {
     width: 100%;
     height: 100%;
@@ -193,7 +198,7 @@ h1 {
 
 @media (min-width: 801px) {
     .parallax-contact {
-        background-image: url("imgs/contact.png");
+        background-image: url("imgs/engine.jpg");
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -201,7 +206,7 @@ h1 {
     }
 
     .parallax-build {
-        background-image: url("imgs/build.png");
+        background-image: url("imgs/build.jpg");
         height: 100%;
         background-attachment: fixed;
         background-position: center;
@@ -210,7 +215,7 @@ h1 {
     }
     
     .parallax {
-        background-image: url("imgs/main.png");
+        background-image: url("imgs/main-splash.jpg");
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -377,12 +382,14 @@ h1 {
 }
 
 .service-card p {
-    font-size: 1.2em;
+    font-size: 1.2em;   
 }
 
 .service-card h2 {
-    letter-spacing: 1px;
-    font-size: 1.5em;
+    letter-spacing: 2px;
+    font-size: 1.7em;
+    font-weight: 600;
+    text-align: center;
 }
 
 .shop-info .display .picture-right {
@@ -732,21 +739,31 @@ footer .section-10 {
     }
 
     .parallax {
-        background-image: url("imgs/main.png");
+        background-image: url("imgs/main-splash.jpg");
         height: 100%;
         background-size: cover;
         background-position: center;
     }
+
+    .shop-info .content {
+        text-align: center;
+        padding: 0;
+        width: 90%;
+    }
+
+    .personal h2 {
+        font-size: 2.5em;
+    }
     
     .parallax-build {
-        background-image: url("imgs/build.png");
+        background-image: url("imgs/build.jpg");
         height: 100%;
         background-size: cover;
         background-position: center;
     }
 
     .parallax-contact {
-        background-image: url("imgs/contact.png");
+        background-image: url("imgs/engine.jpg");
         height: 100%;
         background-size: cover;
         background-position: center;
