@@ -685,7 +685,7 @@ footer .section-10 {
 
 @media (max-width: 800px) {
     html {
-      font-size: .6em;
+      font-size: .55em;
     }
 
     h1 {
@@ -838,8 +838,12 @@ footer .section-10 {
         text-align: left;
     }
 
-    h1, h2, h3, .personal h2, .display h2, .service-card h2 {
+    h1, h2, h3, .personal h2, .display h2, .service-card h2, footer h3 {
         letter-spacing: normal;
+    }
+
+    p, .content p {
+        line-height: 1.3em;
     }
 }
 
