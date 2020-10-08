@@ -833,7 +833,7 @@ footer .section-10 {
         text-align: left;
     }
 
-    h1, h2, h3 {
+    h1, h2, h3, .personal h2, .display h2, .service-card h2 {
         letter-spacing: normal;
     }
 }
