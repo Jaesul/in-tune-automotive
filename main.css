@@ -222,6 +222,14 @@ h1 {
         background-size: cover;
     }
 
+    .parallax-services {
+        background-image: url("imgs/exhaust.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     .mobile {
         display: none;
     }
@@ -242,7 +250,7 @@ h1 {
 }
 
 .shop-info {
-    background: rgb(8, 8, 8);
+    background: rgb(20, 20, 20);
 }
 
 .shop-info .content {
@@ -348,12 +356,12 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 0 8% 5% 8%;
+    padding: 0 12% 5% 12%;
 }
 
 #services {
     align-items: stretch;
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(20, 20, 20);
     padding: 4.5% 18%;
 }
 
@@ -769,6 +777,13 @@ footer .section-10 {
 
     .parallax-contact {
         background-image: url("imgs/engine.jpg");
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .parallax-services {
+        background-image: url("imgs/exhaust.jpg");
         height: 100%;
         background-size: cover;
         background-position: center;
