@@ -685,7 +685,7 @@ footer .section-10 {
 
 @media (max-width: 800px) {
     html {
-      font-size: .5em;
+      font-size: .6em;
     }
 
     h1 {
@@ -694,6 +694,10 @@ footer .section-10 {
 
     .overlay p {
         width: 70%;
+    }
+
+    #services {
+        padding: 5% 5%;
     }
 
     nav {
@@ -787,6 +791,7 @@ footer .section-10 {
 
     .display {
         display: block;
+        padding: 5% 5%;
     }
 
     .display .content {
@@ -800,11 +805,11 @@ footer .section-10 {
     }
 
     .platforms .img-container {
-        width: 30%;
+        width: 45%;
     }
 
     .platforms {
-        padding-bottom: 3em;
+        padding: 0 4% 5% 4%;
     }
 
     .platforms .lg {
