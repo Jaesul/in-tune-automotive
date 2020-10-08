@@ -722,6 +722,7 @@ footer .section-10 {
         justify-content: center;
         align-items: center;
         background-color: rgb(20, 20, 20);
+        padding: 5% 5%;
     }
 
     .personal .img-container {
